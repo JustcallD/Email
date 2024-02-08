@@ -1,0 +1,33 @@
+.chatBoxContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.profileImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.userInfo {
+  flex: 1;
+}
+
+.userInfo h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.userInfo h4 {
+  font-size: 14px;
+  color: #666;
+}
+
+.time {
+  font-size: 12px;
+  color: #999;
+}

@@ -1,0 +1,52 @@
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #7076ff;
+  height: 10%;
+  border-radius: 0 0 10px 10px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 70%;
+}
+
+.inputBox {
+  width: 80%;
+  background-color: transparent;
+  color: white;
+  height: 40px;
+}
+
+.inputBox::placeholder {
+  color: #ffffff;
+}
+
+.inputBox:focus {
+  border-color: #ffffff;
+}
+
+.attachmentIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+}
+
+.sendIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}

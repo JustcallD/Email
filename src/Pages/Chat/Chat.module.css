@@ -1,0 +1,15 @@
+.chatContainer {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  gap: 30px;
+}
+
+.chatColumnLeft {
+  flex: 1;
+  overflow: hidden;
+}
+.chatColumnRight {
+  flex: 2;
+  overflow: hidden;
+}
